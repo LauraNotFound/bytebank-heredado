@@ -1,18 +1,17 @@
-## Getting Started
+## Proyecto básico de banco "Bytebank"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un proyecto desarrollado con Java en VS Code.
 
-## Folder Structure
+## Contenido
 
-The workspace contains two folders by default, where:
+Aquí podremos ver lo que podría ser de manera muy básica el funcionamiento interno de un software de banco donde los trabajadores y los clientes interactuan, donde estos últimos pueden realizar operaciones como retirar, depositar y transferir dinero.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El proyecto lo realicé guiándome de las clases que llevo en Alura. En este proyecto resalto los siguientes temas:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Herencia
+- Polimorfismo
+- Interfacez
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Con el fin de afianzar los conocimientos adquiridos.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Este es solo el software por lo que al correr el programa usaremos compiladores del IDE o consolas como Powershell.
