@@ -18,6 +18,7 @@ public class TestFuncionario {
         laura.setDocumento("444455558");
         laura.setsalario(6000);
         laura.setTipo(0);
+        laura.setClave("Alura123");//Este método es para ingresar la clave de este funcionario y que pueda loguearse.
         
         System.out.println(laura.getDocumento());
         System.out.println(laura.getNombre());
@@ -30,6 +31,8 @@ public class TestFuncionario {
 
         Administrador jaime = new Administrador();
         jaime.setsalario(3000);
+        jaime.setClave("123");
+        System.out.println(jaime.getsalario());
         System.out.println(jaime.getBonificacion());
         System.out.println();
         
