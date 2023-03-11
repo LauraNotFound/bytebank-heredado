@@ -1,11 +1,11 @@
-public class CuentaCorriente extends Cuenta{
-    //es necesario escribir el constructor y pasarle los atributos ya que la clase madre así lo requiere
-    public CuentaCorriente(int agencia, double saldo, int numero) {
+public class CuentaCorriente extends Cuenta{/*Clase CuentaCorriente hija de Cuenta */
+
+    public CuentaCorriente(int agencia, double saldo, int numero) {/*Constructor con los atributos de la clase madre */
         super(agencia, saldo, numero);
     }
 
-    @Override //sobreescritura del método retirar
-    public boolean retirar(double valor) {
+    @Override 
+    public boolean retirar(double valor) {/*Sobreescritura del método retirar */
         double comision = 0.2;
         return super.retirar(valor + comision);
     }  

@@ -1,24 +1,22 @@
-//Clase Gerente que es una extensión de la clase Funcionario.
-public class Gerente extends Funcionario implements Autenticable {
+public class Gerente extends Funcionario implements Autenticable {/*Clase Gerente que es una extensión de la clase Funcionario. */
 
-    private AutenticationUtil util;
+    private AutenticationUtil util;/*atributo util de tipo AutentifationUtil*/
 
-    public Gerente(){
-        this.util = new AutenticationUtil();
+    public Gerente(){/*Constructor */
+        this.util = new AutenticationUtil();/*objeto implementado de AutenticationUtil */
     }
 
-    //Sobre escritura del método getBonificacion
-    public double getBonificacion() {
+    public double getBonificacion() {/*Sobre escritura del método getBonificacion */
         return super.getsalario() + super.getsalario() * 0.1;
     }
 
     @Override
-    public void setClave(String clave) {
+    public void setClave(String clave) {/*Método implementado de Autenticable */
         this.util.setClave(clave);
     }
 
     @Override
-    public boolean iniciarSesion(String clave) {
+    public boolean iniciarSesion(String clave) {/*Método implementado de Autenticable */
         return this.util.iniciarSesion(clave);
     }
 }

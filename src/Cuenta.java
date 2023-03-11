@@ -77,7 +77,7 @@ public class Cuenta {
         return titular;//retornar valor titular
     }
 
-    public static int getTotal() {
+    public static int getTotal() {/*método devolver total */
         return Cuenta.total;
     }
 }

@@ -1,16 +1,9 @@
-public class ControlBonificacion {
-    private double suma;
+public class ControlBonificacion {/*Clase pública ControlBonificacion */
+    private double suma;/*Declarando atributo double suma */
 
-    public double registrarSalario(Funcionario funcionario) {
-        this.suma = funcionario.getBonificacion() + this.suma;
+    public double bonoAcumulado(Funcionario funcionario) {/*método double registrarSalario */
+        this.suma = funcionario.getBonificacion() + this.suma;/* el objeto funcionario se ha pasado por parámetro para poder usar su método getBonificacion, entonces la bonificacion que obtenga se va a sumar al atributo suma que tengo.*/
         System.out.println(this.suma);
         return this.suma;
     }
-
-    /* Con el método registrarSalario para Funcionario es suficiente ya que las demás clases son herederas de esta, por lo tanto son aptas para este método.
-    public double registrarSalario(Gerente gerente) {
-        this.suma = gerente.getBonificacion() + this.suma;
-        System.out.println("Hasta el momento se ha dado un total de "+ this.suma + " en bonificación.");
-        return this.suma;
-    }*/
 }
