@@ -10,7 +10,7 @@ El proyecto lo realicé guiándome de las clases que llevo en Alura. En este pro
 
 - Herencia
 - Polimorfismo
-- Interfacez
+- Interfaces
 
 Con el fin de afianzar los conocimientos adquiridos.
 
